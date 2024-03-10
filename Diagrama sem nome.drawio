@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T12:40:20.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.0.1" etag="1nu846ZTm3sSUkKbCZ5Q" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T12:48:24.385Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="19MN4EwVMUKLXYAj7l5p" version="23.0.1" type="github">
   <diagram name="Página-1" id="0mJR-Fchbi6lfVNOr421">
-    <mxGraphModel>
+    <mxGraphModel dx="1341" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-1" target="9fSjEtHIO8-9szCCp7ZX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-1" value="asset-store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-2" target="9fSjEtHIO8-9szCCp7ZX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-2" value="Adiciona o arquivo" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="105" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-3" value="&lt;strike&gt;Sobe para o S3 localmente&lt;/strike&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-7" value="Sobe para o S3 via git-actions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-9" target="9fSjEtHIO8-9szCCp7ZX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-9" target="9fSjEtHIO8-9szCCp7ZX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-9" value="Cria uma nova versão localmente" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="105" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
