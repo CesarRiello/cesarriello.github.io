@@ -1,35 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T12:48:24.385Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="19MN4EwVMUKLXYAj7l5p" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T13:02:56.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="vvVj0tg1cIeHdPAm15gU" version="23.0.1" type="github">
   <diagram name="Página-1" id="0mJR-Fchbi6lfVNOr421">
     <mxGraphModel dx="1341" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9fSjEtHIO8-9szCCp7ZX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-1" target="9fSjEtHIO8-9szCCp7ZX-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9fSjEtHIO8-9szCCp7ZX-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="120" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="9fSjEtHIO8-9szCCp7ZX-1" value="asset-store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="9fSjEtHIO8-9szCCp7ZX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-2" target="9fSjEtHIO8-9szCCp7ZX-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9fSjEtHIO8-9szCCp7ZX-2" value="Adiciona o arquivo" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
-          <mxGeometry x="105" y="160" width="150" height="60" as="geometry" />
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-3" target="9fSjEtHIO8-9szCCp7ZX-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9fSjEtHIO8-9szCCp7ZX-3" value="&lt;strike&gt;Sobe para o S3 localmente&lt;/strike&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="430" width="120" height="80" as="geometry" />
+          <mxGeometry x="80" y="410" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9fSjEtHIO8-9szCCp7ZX-7" value="Sobe para o S3 via git-actions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="430" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9fSjEtHIO8-9szCCp7ZX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-9" target="9fSjEtHIO8-9szCCp7ZX-3">
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-9" target="9fSjEtHIO8-9szCCp7ZX-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9fSjEtHIO8-9szCCp7ZX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-9" target="9fSjEtHIO8-9szCCp7ZX-7">
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-9" value="Gera a versão no commit" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-16" target="9fSjEtHIO8-9szCCp7ZX-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9fSjEtHIO8-9szCCp7ZX-9" value="Cria uma nova versão localmente" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
-          <mxGeometry x="105" y="260" width="150" height="60" as="geometry" />
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-16" value="&lt;strike&gt;Cria uma nova versão localmente&lt;/strike&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-17" target="9fSjEtHIO8-9szCCp7ZX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-17" target="9fSjEtHIO8-9szCCp7ZX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-17" value="Adiciona ou atualiza os arquivos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-20" target="9fSjEtHIO8-9szCCp7ZX-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="520" />
+              <mxPoint x="230" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-20" value="Sobe para o S3 no merge via git-actions" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-21" target="9fSjEtHIO8-9szCCp7ZX-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-21" value="Gera um arquivo index.json com a lista dos assets e atualiza no repo" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="130" y="550" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-28" value="Criar um novo release do CDN para atualizar os fronts" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-30" value="asset-store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-31" target="9fSjEtHIO8-9szCCp7ZX-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-31" value="backoffice-asset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-32" target="9fSjEtHIO8-9szCCp7ZX-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-32" value="Adiciona ou atualiza os arquivos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-33" target="9fSjEtHIO8-9szCCp7ZX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-33" value="upload via file-upload" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="535" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-34" value="Gera um arquivo index.json com a lista dos assets e envia para o s3" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-35" value="Disponível para os fronts via url do cloudfront&lt;br&gt;https://cloudinary.belezanaweb.com.br/blz/assets/index.json" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-5;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fSjEtHIO8-9szCCp7ZX-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.474;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9fSjEtHIO8-9szCCp7ZX-34" target="9fSjEtHIO8-9szCCp7ZX-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
